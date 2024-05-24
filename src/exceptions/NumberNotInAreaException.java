@@ -1,0 +1,28 @@
+package exceptions;
+
+/**
+ * This exception is thrown in cases where the number is out of range.
+ * @author AleksandarKekic
+ * @version 1.0
+ * @since 2023-02-01
+ */
+public class NumberNotInAreaException extends Exception {
+	
+	
+	
+	/**
+	 * This is a constructor without parameters.
+	 */
+	public NumberNotInAreaException() {super();}
+	
+	
+	
+	/**
+	 * This is a constructor with a message.
+	 * @param message The message that will be displayed when this exception is thrown.
+	 */
+	public NumberNotInAreaException(String message) {super(message);}
+
+	
+
+}
